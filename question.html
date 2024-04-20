@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="question.css">
+ </head>
+ <body>
+
+    <div class="btn_start">
+        <button class="btn btn-warning btn-lg" style="font-size: 20px;">Start quiz</button>
+    </div>
+    
+  <div class="cart ">
+    <div class="cart-header">
+        <div class="interrogation" style="font-size: 22px;">Interrogation</div>
+        <div class="time" style="font-size: 20px;">
+            <div class="time_number">time: </div>
+            <div class="timing"></div>
+        </div>
+        <div class="timeline"> </div>
+    </div>
+    <div class="cart-body">
+       <div class="question"></div>
+        <div class="answer">
+            <!-- <div class="option">
+            <span>b: "react"</span>
+            <div class="icon"> <i class="fa-solid fa-check" style="color: #52c02a;"></i></div>
+           </div> -->
+        </div>
+    </div>
+
+    <footer>
+        <button class="onceki-soru">onceki soru</button>
+        <div class="soru-sayi"></div>
+        <button class="sonraki-soru">sonraki soru</button>
+    </footer>
+  </div>
+
+  <div class="cart-two">
+    <div><i class="fa-solid fa-crown"></i></div>
+    <span id="sorusayi"></span>
+    <div class="button">
+        <button id="yenidenbaslat">Yeniden Baslat</button>
+        <button>Testi Bitir</button>
+    </div>
+  </div>
+
+    
+
+   <script src="question.js"></script>
+  </body>
+  </html>
